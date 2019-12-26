@@ -4,10 +4,61 @@
 
   <div class="router">
 
-    <h1>router</h1>
-
+    <h1>Router 1810</h1>
+    <p>System</p>
+    <table  border = 1; align="center" >
+      <thead>
+         <td>OID</td>
+         <td>Value</td>
+         <td>Type</td>
+         <td>Time</td>
+      </thead>
+      {% for row in sysrow %}
+           <tr>
+          <td>{{row["oids"]}}</td>
+          <td>{{row["ka"]}}</td>
+          <td> {{row["types"]}}</td>
+          <td>{{row['times']}}</td>	
+       </tr>
+    {% endfor %}
+   </table>
+   <p>udpInDatagrams</p>
+   <table  border = 1; align="center" >
+    <thead>
+       <td>OID</td>
+       <td>Value</td>
+       <td>Type</td>
+       <td>Time</td>
+    </thead>
+    {% for row in udpinrow %}
+      <tr>
+        <td>{{row["oids"]}}</td>
+        <td>{{row["ka"]}}</td>
+        <td> {{row["types"]}}</td>
+        <td>{{row['times']}}</td>	
+     </tr>
+  {% endfor %}
+ </table>
+  <p >udpOutDatagrams</p>
+  <table  border = 1; align="center" >
+    <thead>
+       <td>OID</td>
+       <td>Value</td>
+       <td>Type</td>
+       <td>Time</td>
+    </thead>
+    {% for row in udpoutrow %}
+      <tr>
+        <td>{{row["oids"]}}</td>
+        <td>{{row["ka"]}}</td>
+        <td> {{row["types"]}}</td>
+        <td>{{row['times']}}</td>	
+     </tr>
+  {% endfor %}
+ </table>
 
 
   </div>
+  <p></p>
 
 {% endblock %}

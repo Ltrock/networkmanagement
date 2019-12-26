@@ -1,138 +1,118 @@
 body {
 
-    margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-    padding: 0;
+  color: #444;
 
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header {
+  background-color: rgb(57, 204, 230);
+  height: 35px;
+  width: 100%;
+  position: fixed;
+  opacity: 0.7;
+  z-index: 1;
+  top: 0;
+  left: 0;
+    
+}
 
-    color: #444;
+header h1.logo {
 
-  }
+  margin: 0;
 
-  /*
+  font-size: 1.7em;
 
-   * Formatting the header area
+  color: #fff;
 
-   */
+  text-transform: uppercase;
 
-  header {
+  float: left;
 
-    background-color: rgb(57, 204, 230);
-    height: 35px;
-    width: 100%;
-    opacity: .9;
-    margin-top: 10px;
-    margin-bottom: 10px;
+}
 
-  }
+header h1.logo:hover {
 
-  header h1.logo {
+  color: #fff;
 
-    margin: 0;
+  text-decoration: none;
 
-    font-size: 1.7em;
+}
 
-    color: #fff;
+.container {
 
-    text-transform: uppercase;
+  width: 1200px;
 
-    float: left;
+  margin: 0 auto;
 
-  }
 
-  header h1.logo:hover {
+}
+div.member {
 
-    color: #fff;
+  padding: 10px 0 30px 0;
 
-    text-decoration: none;
+  background-color: #E6E6FA;
 
-  }
+  -webkit-border-radius: 6px;
 
-  /*
+  -moz-border-radius: 6px;
 
-   * Centering the body content
+  border-radius: 6px;
 
-   */
+}
+h2 {
 
-  .container {
+  font-size: 3em;
 
-    width: 1200px;
+  margin-top: 40px;
 
-    margin: 0 auto;
+  text-align: center;
 
-  }
+  letter-spacing: -2px;
 
+}
 
+h3 {
 
+  font-size: 1.7em;
 
+  font-weight: 100;
 
-  div.member {
+  margin-top: 30px;
 
-    padding: 10px 0 30px 0;
+  text-align: center;
 
-    background-color: #E6E6FA;
+  letter-spacing: -1px;
 
-    -webkit-border-radius: 6px;
+  color: #999;
 
-       -moz-border-radius: 6px;
+}
 
-            border-radius: 6px;
+.menu {
 
-  }
+  float: right;
 
-  h2 {
+  margin-top: 8px;
+  
 
-    font-size: 3em;
+}
 
-    margin-top: 40px;
+.menu li {
 
-    text-align: center;
+  display: inline;
 
-    letter-spacing: -2px;
+}
 
-  }
+.menu li + li {
 
-  h3 {
+  margin-left: 35px;
 
-    font-size: 1.7em;
+}
 
-    font-weight: 100;
+.menu li a {
 
-    margin-top: 30px;
+  color: white;
 
-    text-align: center;
+  text-decoration: none;
 
-    letter-spacing: -1px;
-
-    color: #999;
-
-  }
-
-  .menu {
-
-    float: right;
-
-    margin-top: 8px;
-
-  }
-
-  .menu li {
-
-    display: inline;
-
-  }
-
-  .menu li + li {
-
-    margin-left: 35px;
-
-  }
-
-  .menu li a {
-
-    color: white;
-
-    text-decoration: none;
-
-  }
+}

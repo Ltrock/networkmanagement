@@ -1,0 +1,7 @@
+Cisco IOS Software, C181X Software (C181X-ADVIPSERVICESK9-M), Version 12.4(15)T8, RELEASE SOFTWARE (fc3)Technical Support: http://www.cisco.com/techsupportCopyright (c) 1986-2008 by Cisco Systems, Inc.Compiled Mon 01-Dec-08 13:18 by prod_rel_team/1.3.6.1.2.1.1.1.0/org.snmp4j.smi.OctetString/26-12-2019 14:17:15
+1.3.6.1.4.1.9.1.642/1.3.6.1.2.1.1.2.0/org.snmp4j.smi.OID/26-12-2019 14:17:15
+4:19:24.34/1.3.6.1.2.1.1.3.0/org.snmp4j.smi.TimeTicks/26-12-2019 14:17:15
+/1.3.6.1.2.1.1.4.0/org.snmp4j.smi.OctetString/26-12-2019 14:17:15
+Router_C1812/1.3.6.1.2.1.1.5.0/org.snmp4j.smi.OctetString/26-12-2019 14:17:15
+/1.3.6.1.2.1.1.6.0/org.snmp4j.smi.OctetString/26-12-2019 14:17:15
+78/1.3.6.1.2.1.1.7.0/org.snmp4j.smi.Integer32/26-12-2019 14:17:15
