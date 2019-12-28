@@ -8,7 +8,7 @@ def convertfile():
         conn = sql.connect('data/'+fname+'.db') 
         conn.execute('CREATE TABLE outtable (oids TEXT, ka TEXT, types TEXT, times TEXT)')
         conn.close
-        for x in range(150):     # row in a file
+        for x in range(150):    # row in a file
             
             t=f.readline().split('/')
             
